@@ -42,4 +42,15 @@ On my own initiative I also designed and built **FSD Synthesis**, an internal mu
 
 <br/>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tarunrohit/tarunrohit/main/dist/github-jet-dark.svg">
+    <img alt="GitHub contribution heatmap, jet colormap" src="https://raw.githubusercontent.com/tarunrohit/tarunrohit/main/dist/github-jet-light.svg" width="100%">
+  </picture>
+</p>
+
+<p align="center"><sub>Self-updating every 6 hours via a GitHub Actions workflow that queries the GitHub GraphQL API and re-renders this SVG with a custom blue→red "jet" colormap instead of the default green — see <a href="scripts/generate_heatmap.py">scripts/generate_heatmap.py</a> and <a href=".github/workflows/jet-heatmap.yml">.github/workflows/jet-heatmap.yml</a>.</sub></p>
+
+<br/>
+
 <sub>Built with a python/pillow ascii-portrait generator + a hand-built SVG terminal panel — see <a href="ascii_to_svg.py">ascii_to_svg.py</a> and <a href="generate_panel.py">generate_panel.py</a> in this repo.</sub>
